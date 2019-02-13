@@ -13,6 +13,10 @@ teaor08_2018_09_01 <- read_excel(
 # 2-, 3- es 4-jegy kodok es nevek szetvalasztasa
 
 teaor08_2018_09_01 <- teaor08_2018_09_01 %>%
+  # Meg vannak csillagozva a kisker 3-jegy sorok
+  mutate(
+    kod = str_remove(kod, fixed("*"))
+  ) %>%
   mutate(
     kod_a11   = if_else(str_detect(kod, "^[A-Z]"),   kod, NA_character_),
     nev_a11   = if_else(str_detect(kod, "^[A-Z]"),   nev, NA_character_),
