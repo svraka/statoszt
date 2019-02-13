@@ -12,21 +12,26 @@ teaor08_2018_09_01 <- read_excel(
 
 # 2-, 3- es 4-jegy kodok es nevek szetvalasztasa
 
+re_kod_a11   <- "^[A-Z]"
+re_kod_2jegy <- "^\\d{2}$"
+re_kod_3jegy <- "^\\d{3}$"
+re_kod_4jegy <- "^\\d{4}$"
+
 teaor08_2018_09_01 <- teaor08_2018_09_01 %>%
   # Meg vannak csillagozva a kisker 3-jegy sorok
   mutate(
     kod = str_remove(kod, fixed("*"))
   ) %>%
   mutate(
-    kod_a11   = if_else(str_detect(kod, "^[A-Z]"),   kod, NA_character_),
-    nev_a11   = if_else(str_detect(kod, "^[A-Z]"),   nev, NA_character_),
-    kod_2jegy = if_else(str_detect(kod, "^\\d{2}$"), kod, NA_character_),
-    nev_2jegy = if_else(str_detect(kod, "^\\d{2}$"), nev, NA_character_),
-    kod_3jegy = if_else(str_detect(kod, "^\\d{3}$"), kod, NA_character_),
-    nev_3jegy = if_else(str_detect(kod, "^\\d{3}$"), nev, NA_character_)
+    kod_a11   = if_else(str_detect(kod, re_kod_a11),   kod, NA_character_),
+    nev_a11   = if_else(str_detect(kod, re_kod_a11),   nev, NA_character_),
+    kod_2jegy = if_else(str_detect(kod, re_kod_2jegy), kod, NA_character_),
+    nev_2jegy = if_else(str_detect(kod, re_kod_2jegy), nev, NA_character_),
+    kod_3jegy = if_else(str_detect(kod, re_kod_3jegy), kod, NA_character_),
+    nev_3jegy = if_else(str_detect(kod, re_kod_3jegy), nev, NA_character_)
   ) %>%
   fill(-kod, -nev) %>%
-  filter(str_detect(kod, "^\\d{4}$")) %>%
+  filter(str_detect(kod, re_kod_4jegy)) %>%
   mutate(
     nev_a11 = str_to_sentence(nev_a11)
   ) %>%
