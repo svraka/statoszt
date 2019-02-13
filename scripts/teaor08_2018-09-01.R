@@ -1,6 +1,6 @@
-library(dplyr)
-library(stringr)
+library(tidyverse)
 library(readxl)
+library(data.table)
 
 teaor08_2018_09_01 <- read_excel(
   path = "data_raw/teaor08_struktura_2018_09_01.xls",
@@ -26,7 +26,83 @@ teaor08_2018_09_01 <- teaor08_2018_09_01 %>%
   mutate(
     nev_a11 = str_to_sentence(nev_a11)
   ) %>%
-  select(kod_a11:nev_3jegy, kod_4jegy = kod, nev_4jegy = nev)
+  rename(
+    kod_4jegy = kod,
+    nev_4jegy = nev
+  ) %>%
+  mutate(
+    kod_2jegy_num = as.integer(kod_2jegy)
+  )
+
+
+# A38 kodok
+
+a38 <- read_csv(
+  file = "data_raw/tabula-NGM_37_2015_utmutato_2_melleklet.csv",
+  col_names = c("kod_a38", "nev_a38", "osztaly"),
+  skip = 1,
+  col_types = "ccc"
+)
+
+a38 <- a38 %>%
+  # Egybetusitjuk, ha a foagazaton belul nincs alkategoria
+  mutate(
+    foagazat = str_sub(kod_a38, 1, 1)
+  ) %>%
+  group_by(foagazat) %>%
+  mutate(
+    n_alagazat = n()
+  ) %>%
+  ungroup %>%
+  mutate(
+    kod_a38 = if_else(n_alagazat == 1, foagazat, kod_a38)
+  ) %>%
+  select(-foagazat, -n_alagazat) %>%
+  # Osztalyok kezdo es zaro ketjegyu kodja
+  mutate(
+    osztaly_kezd = as.integer(str_replace(osztaly, "^(\\d{2}).*",  "\\1")),
+    osztaly_zaro = as.integer(str_replace(osztaly, "^.*(\\d{2})$", "\\1"))
+  ) %>%
+  select(-osztaly)
+
+# A 9900-nek nincs A38 kodja, kezzel feltoltjuk
+
+a38_9900 <- tibble(
+  kod_a38      = "U",
+  nev_a38      = "Területen kívüli szervezet",
+  osztaly_kezd = 99L,
+  osztaly_zaro = 99L,
+)
+
+a38 <- a38 %>%
+  bind_rows(a38_9900)
+
+
+# Non-equi joinnal a `data.table`-bol osszakapcsoljuk
+
+t <- teaor08_2018_09_01 %>%
+  select(kod_2jegy, kod_2jegy_num) %>%
+  distinct
+
+setDT(t)
+setDT(a38)
+
+t <- t[
+  a38,
+  on = .(kod_2jegy_num >= osztaly_kezd, kod_2jegy_num <= osztaly_zaro)
+]
+
+t <- t %>%
+  as_tibble %>%
+  select(kod_2jegy, kod_a38, nev_a38)
+
+
+# Visszakapcsoljuk a fo tablahoz
+
+teaor08_2018_09_01 <- teaor08_2018_09_01 %>%
+  left_join(t, by = "kod_2jegy") %>%
+  select(kod_4jegy, nev_4jegy, kod_3jegy, nev_3jegy, kod_2jegy, nev_2jegy,
+         kod_a38, nev_a38, kod_a11, nev_a11)
 
 
 # Mentes
