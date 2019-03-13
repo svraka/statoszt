@@ -1,4 +1,4 @@
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 
 isco08_2017_07_24 <- read_rds("data_raw/isco08_2017-07-24.Rdata")
 

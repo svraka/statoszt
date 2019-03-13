@@ -1,5 +1,5 @@
-library(data.table)
-library(tidyverse)
+suppressPackageStartupMessages(library(data.table))
+suppressPackageStartupMessages(library(tidyverse))
 
 nace_r2_2018_06_06_raw <- read_rds("data_raw/nace_r2_2018-06-06.Rdata")
 

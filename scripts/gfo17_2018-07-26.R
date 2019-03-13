@@ -1,4 +1,4 @@
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 
 # Tabula nem tudta szepen megenni, kis kezi korrekciok
 

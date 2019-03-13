@@ -1,5 +1,5 @@
-library(tidyverse)
-library(rvest)
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(rvest))
 
 feor08_2019_02_14 <- read_html(
   "data_raw/feorlista_2019-02-14.html",

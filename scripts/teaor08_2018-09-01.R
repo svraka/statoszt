@@ -1,6 +1,6 @@
-library(tidyverse)
-library(readxl)
-library(data.table)
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(readxl))
+suppressPackageStartupMessages(library(data.table))
 
 teaor08_2018_09_01 <- read_excel(
   path = "data_raw/teaor08_struktura_2018_09_01.xls",
