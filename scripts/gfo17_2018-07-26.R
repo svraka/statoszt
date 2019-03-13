@@ -58,4 +58,4 @@ gfo17_2018_07_26 <- gfo17_2018_07_26 %>%
 
 # Mentes
 
-saveRDS(gfo17_2018_07_26, "data/gfo17_2018_07_26.Rdata")
+saveRDS(gfo17_2018_07_26, "data/gfo17_2018-07-26.Rdata")

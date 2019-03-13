@@ -57,7 +57,7 @@ nace_r2_2018_06_06 <- nace_r2_2018_06_06_raw %>%
 
 # A38 kodok
 
-teaor_a38 <- read_rds("data/teaor08_2018_09_01.Rdata") %>%
+teaor_a38 <- read_rds("data/teaor08_2018-09-01.Rdata") %>%
   select(kod_a38, kod_2jegy) %>%
   group_by(kod_a38) %>%
   summarise(
@@ -146,4 +146,4 @@ nace_r2_2018_06_06 <- nace_r2_2018_06_06 %>%
 
 # Mentes
 
-saveRDS(nace_r2_2018_06_06, "data/nace_r2_2018_06_06.Rdata")
+saveRDS(nace_r2_2018_06_06, "data/nace_r2_2018-06-06.Rdata")
