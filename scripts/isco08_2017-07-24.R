@@ -45,3 +45,5 @@ isco08_2017_07_24 <- isco08_2017_07_24 %>%
   fill(-kod_4jegy, -nev_4jegy) %>%
   filter(str_detect(kod_4jegy, re_kod_4jegy)) %>%
   mutate(kod_4jegy = str_sub(kod_4jegy, 3, 6))
+
+saveRDS(isco08_2017_07_24, "data/isco08_2017-07-24.Rdata")
