@@ -3,7 +3,7 @@ suppressPackageStartupMessages(library(tidyverse))
 # Tabula nem tudta szepen megenni, kis kezi korrekciok
 
 gfo17_2018_07_26 <- read_csv(
-  file = "data_raw/tabula-gfo2017_struktura_2018-07-26.csv",
+  file = "data_raw/tabula-gfo2017_struktura_2018_07_26.csv",
   skip = 3,
   col_names = c("kod", "nev"),
   col_types = "cc"
@@ -57,4 +57,4 @@ gfo17_2018_07_26 <- gfo17_2018_07_26 %>%
 
 # Mentes
 
-saveRDS(gfo17_2018_07_26, "data/gfo17_2018-07-26.Rdata")
+saveRDS(gfo17_2018_07_26, "data/gfo17_2018_07_26.Rdata")
