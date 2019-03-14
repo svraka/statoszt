@@ -141,7 +141,8 @@ nace_r2_2018_06_06 <- nace_r2_2018_06_06 %>%
     nev_a38 = if_else(is.na(nev_a38), nev_a11, nev_a38),
   ) %>%
   select(kod_4jegy, nev_4jegy, kod_3jegy, nev_3jegy, kod_2jegy, nev_2jegy,
-         kod_a38, nev_a38, kod_a11, nev_a11)
+         kod_a38, nev_a38, kod_a11, nev_a11) %>%
+  mutate_at(vars(starts_with("nev")), as_factor)
 
 
 # Mentes

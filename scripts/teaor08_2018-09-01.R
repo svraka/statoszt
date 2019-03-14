@@ -111,7 +111,8 @@ t <- t %>%
 teaor08_2018_09_01 <- teaor08_2018_09_01 %>%
   left_join(t, by = "kod_2jegy") %>%
   select(kod_4jegy, nev_4jegy, kod_3jegy, nev_3jegy, kod_2jegy, nev_2jegy,
-         kod_a38, nev_a38, kod_a11, nev_a11)
+         kod_a38, nev_a38, kod_a11, nev_a11) %>%
+  mutate_at(vars(starts_with("nev")), as_factor)
 
 
 # Mentes

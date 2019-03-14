@@ -60,7 +60,8 @@ foglalkozasok <- feor08_2019_02_14 %>%
 # Osszekapcsolas
 
 feor08_2019_02_14 <- foglalkozasok %>%
-  left_join(csoportok, by = "kod_3jegy")
+  left_join(csoportok, by = "kod_3jegy") %>%
+  mutate_at(vars(starts_with("nev")), as_factor)
 
 
 # Mentes

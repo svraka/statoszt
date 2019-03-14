@@ -52,7 +52,6 @@ gfo17_2018_07_26 <- gfo17_2018_07_26 %>%
 gfo17_2018_07_26 <- gfo17_2018_07_26 %>%
   left_join(fokategoriak, by = "kod_1jegy") %>%
   mutate(nev_fokategoria = coalesce(nev_fokategoria, nev_1jegy)) %>%
-  mutate_at(vars(starts_with("kod")), as.integer) %>%
   mutate_at(vars(starts_with("nev")), as_factor)
 
 
