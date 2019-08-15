@@ -1,7 +1,7 @@
 suppressPackageStartupMessages(library(data.table))
 suppressPackageStartupMessages(library(tidyverse))
 
-nace_r2_2018_06_06_raw <- read_rds("data_raw/nace_r2_2018_06_06.Rdata")
+nace_r2_2018_06_06_raw <- read_rds("data-raw/nace_r2_2018_06_06.RData")
 
 re_kod_4jegy <- "^[A-Z]\\d{4}$"
 re_kod_3jegy <- "^[A-Z]\\d{3}$"
@@ -57,7 +57,9 @@ nace_r2_2018_06_06 <- nace_r2_2018_06_06_raw %>%
 
 # A38 kodok
 
-teaor_a38 <- read_rds("data/teaor08_2018_09_01.Rdata") %>%
+load("data/teaor08_2018_09_01.rda")
+
+teaor_a38 <- teaor08_2018_09_01 %>%
   select(kod_a38, kod_2jegy) %>%
   group_by(kod_a38) %>%
   summarise(
@@ -147,4 +149,4 @@ nace_r2_2018_06_06 <- nace_r2_2018_06_06 %>%
 
 # Mentes
 
-saveRDS(nace_r2_2018_06_06, "data/nace_r2_2018_06_06.Rdata")
+usethis::use_data(nace_r2_2018_06_06, overwrite = TRUE)

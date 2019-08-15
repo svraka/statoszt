@@ -3,7 +3,7 @@ suppressPackageStartupMessages(library(readxl))
 suppressPackageStartupMessages(library(data.table))
 
 teaor08_2018_09_01 <- read_excel(
-  path = "data_raw/teaor08_struktura_2018_09_01.xls",
+  path = "data-raw/teaor08_struktura_2018_09_01.xls",
   range = "A3:B998", # Nem az elso sorban kezdodik, az utolso sor ures es vannak
                      # rejtett oszlopok
   col_names = c("kod", "nev")
@@ -47,7 +47,7 @@ teaor08_2018_09_01 <- teaor08_2018_09_01 %>%
 # A38 kodok
 
 a38 <- read_csv(
-  file = "data_raw/tabula-NGM_37_2015_utmutato_2_melleklet.csv",
+  file = "data-raw/tabula-NGM_37_2015_utmutato_2_melleklet.csv",
   col_names = c("kod_a38", "nev_a38", "osztaly"),
   skip = 1,
   col_types = "ccc"
@@ -117,4 +117,4 @@ teaor08_2018_09_01 <- teaor08_2018_09_01 %>%
 
 # Mentes
 
-saveRDS(teaor08_2018_09_01, "data/teaor08_2018_09_01.Rdata")
+usethis::use_data(teaor08_2018_09_01, overwrite = TRUE)

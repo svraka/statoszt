@@ -1,6 +1,6 @@
 suppressPackageStartupMessages(library(tidyverse))
 
-isco08_2017_07_24 <- read_rds("data_raw/isco08_2017_07_24.Rdata")
+isco08_2017_07_24 <- read_rds("data-raw/isco08_2017_07_24.RData")
 
 re_kod_4jegy <- "^OC\\d{4}$"
 re_kod_3jegy <- "^OC\\d{3}$"
@@ -47,4 +47,4 @@ isco08_2017_07_24 <- isco08_2017_07_24 %>%
   mutate(kod_4jegy = str_sub(kod_4jegy, 3, 6)) %>%
   mutate_at(vars(starts_with("nev")), as_factor)
 
-saveRDS(isco08_2017_07_24, "data/isco08_2017_07_24.Rdata")
+usethis::use_data(isco08_2017_07_24, overwrite = TRUE)
