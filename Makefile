@@ -17,7 +17,7 @@ data/isco08_2017_07_24.rda: data-raw/isco08_2017_07_24.R data-raw/isco08_2017_07
 data/nace_r2_2018_06_06.rda: data-raw/nace_r2_2018_06_06.R data-raw/nace_r2_2018_06_06.RData data/teaor08_2018_09_01.rda
 	Rscript -e 'source("$<", encoding = "UTF-8")'
 
-data/teaor08_2018_09_01.rda: data-raw/teaor08_2018_09_01.R data-raw/teaor08_struktura_2018_09_01.xls data-raw/tabula-NGM_37_2015_utmutato_2_melleklet.csv
+data/teaor08_2018_09_01.rda: data-raw/teaor08_2018_09_01.R data-raw/teaor08_struktura_2018_09_01.xls data-raw/tabula-NGM_37_2015_utmutato_2_melleklet.csv data-raw/a38_9900.csv
 	Rscript -e 'source("$<", encoding = "UTF-8")'
 
 document:

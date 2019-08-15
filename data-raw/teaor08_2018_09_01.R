@@ -76,11 +76,9 @@ a38 <- a38 %>%
 
 # A 9900-nek nincs A38 kodja, kezzel feltoltjuk
 
-a38_9900 <- tibble(
-  kod_a38      = "U",
-  nev_a38      = "Területen kívüli szervezet",
-  osztaly_kezd = 99L,
-  osztaly_zaro = 99L,
+a38_9900 <- read_csv(
+  "data-raw/a38_9900.csv",
+  col_types = "ccii"
 )
 
 a38 <- a38 %>%
