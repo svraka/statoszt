@@ -5,7 +5,7 @@
 \alias{feor08_2019_02_14}
 \title{FEOR-08}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 485 rows and 8 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 485 rows and 12 columns.
 }
 \usage{
 feor08_2019_02_14

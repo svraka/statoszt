@@ -1,0 +1,653 @@
+1 MANAGERS
+11 Chief executives, senior officials and legislators
+111 Legislator and senior officials
+1110 Legislator and senior officials
+112 Heads of national and regional public administration and jurisdiction
+1121 Head of national and regional public administration and jurisdiction
+1122 Elected head of local government
+1123 Appointed head of local government
+113 Senior officials of national and regional special -interest organisations
+1131 Senior official of national and regional special -interest organisations
+1132 Religious leader
+12 Managing directors and chief executives of business organisations and budgetary institutions
+121 Managing directors and chief executives of business organisations and budgetary institutions
+1210 Managing director and chief executive of business organisations and budgetary institutions
+13 Production and specialized services managers
+131 Production managers
+1311 Agricultural, forestry, fisheries, hunting production manager
+1312 Manufacturing and mining manager
+1313 Construction manager
+132 Specialized services managers
+1321 Supply, distribution, storing manager
+1322 Information and communications technology service manager
+1323 Banking manager
+1324 Social welfare manager
+1325 Childcare service manager
+1326 Aged care service manager
+1327 Health service manager
+1328 Educational manager
+1329 Other services manager
+133 Hotel, restaurant and trade manegers
+1331 Hotel manager
+1332 Restaurant manager
+1333 Sales and marketing manager
+1334 Business service manager
+1335 Cultural centre manager
+1336 Sports and recreational centre manager
+1339 Other commercial, catering and similar service manager
+14 Heads of units assisting business activities
+141 Heads of units assisting business activities
+1411 Accounting and financial services branch maneger
+1412 HR manager
+1413 R&D manager
+1414 Policy and planning manager
+1415 Retail and wholesale trade manager
+1416 Advertising and PR manager
+1419 Other service manager not elsewhere classified
+2 PROFESSIONALS
+21 Technical, information technology and science related professionals
+211 Industry and construction industry engineers
+2111 Mining engineer
+2112 Metallurgical and materials engineer
+2113 Food industry engineer
+2114 Wood and light industry engineer
+2115 Architect
+2116 Civil engineer
+2117 Chemical engineer
+2118 Mechanical engineer
+212 Electrical engineers
+2121 Electrical engineer (energetics engineer)
+2122 Electrical engineer (electronics engineer)
+2123 Telecommunications engineer
+213 Other engineers
+2131 Agricultural engineer
+2132 Forestry and nature conservation environment protection engineer
+2133 Landscape and gardening architect
+2134 Regional and transport planning engineer, town and traffic planner
+2135 Surveyor and GIS (Geographical Information System) engineer
+2136 Graphic and multimedia designer
+2137 Quality assurance engineer
+2139 Other engineer, not elsewhere classified
+214 Software and applications developers and analysts
+2141 System analyst (information technology)
+2142 Software developer
+2143 Network and multimedia developer
+2144 Applications programmer
+2149 Other software and applications developer and analyst
+215 Database and network analysts, operators
+2151 Database designer and operator
+2152 System administrator
+2153 Computer network analyst, operator
+2159 Other database and network analyst, operator
+216 Natural science professionals
+2161 Physicist
+2162 Astronomer
+2163 Meteorologist
+2164 Chemist
+2165 Geologist
+2166 Mathematician
+2167 Biologist, botanist, zoologist and related professional
+2168 Environmental surveyor, adviser
+2169 Other natural sciences professional
+22 Health professionals
+221 Physicians, pharmacists
+2211 General practitioner
+2212 Specialized medical doctor
+2213 Dentist, specialized dentist
+2214 Pharmacist, specialized pharmacist
+222 Human health (related) professionals
+2221 Environmental and occupational health professional
+2222 Optometrist
+2223 Dietician and nutrition adviser
+2224 Physiotherapist
+2225 District nurse
+2226 Ambulance officer
+2227 Audiologist and speech therapist
+2228 Complementary medicine professional
+2229 Other human health (related) professional
+223 Nurse, midwifery professionals
+2231 Nursing professional
+2232 Midwifery professional
+224 Animal and plant hygiene occupations
+2241 Veterinarian
+2242 Plant hygienist (plant protection expert)
+23 Social services professionals
+231 Social services occupations
+2311 Social policy expert
+2312 Social worker and adviser
+24 Educators, teachers
+241 University and higher education teachers
+2410 University and higher education teacher
+242 Educators, teachers in secondary level institutions of education
+2421 Secondary education teacher
+2422 Vocational education teacher
+243 Teachers, educators in kindergartens and primary level institutions of education
+2431 Primary school teacher
+2432 Early childhood educator
+244 Special educators, teachers
+2441 Special needs teacher
+2442 Conductor
+249 Other specialized teaching professionals
+2491 Education expert, school adviser
+2492 Language teacher (outside the educational system)
+2493 Music teacher (outside the educational system)
+2494 Teacher of other arts (outside the educational system)
+2495 Teacher of information technology (outside the educational system)
+2499 Other specialized teacher, educator
+25 Business type professionals
+251 Finance and accounting professionals
+2511 Finance analyst and investment adviser
+2512 Tax adviser, tax consultant
+2513 Auditor, accountant
+2514 Controller
+252 Institution management and business policy professionals
+2521 Management and organization analyst, organizer
+2522 Business policy analyst, organizer
+2523 Personnel and careers professional
+2524 Training and staff development professional
+253 Sales and marketing occupations
+2531 Advertising and marketing professional
+2532 Public relations professional
+2533 Sales professional
+2534 Information and communications technology sales professional
+26 Legal and social sciences professionals
+261 Legal professionals
+2611 Lawyer, legal adviser
+2612 Prosecutor
+2613 Judge
+2614 Notary public
+2615 Attorney-at-law
+2619 Other legal sciences professional
+262 Social sciences professionals
+2621 Philosopher, political scientist
+2622 Historian, archaeologist
+2623 Ethnographer
+2624 Analytical economist
+2625 Statistician
+2626 Sociologist, demographer
+2627 Linguist, translator, interpreter
+2628 Psychologist
+2629 Other social sciences professional
+27 Culture, sports, arts and religion professionals
+271 Culture and sports professionals
+2711 Librarian, information specialist librarian
+2712 Archivist
+2713 Museologist, museum collection curator
+2714 Cultural organizer
+2715 Editor of book and magazine publication
+2716 Journalist, editor of radio and television broadcast
+2717 Specialized coach, sports organizer, manager
+2719 Other culture and sports professional
+272 Creative and performing arts professionals
+2721 Writer (except journalists)
+2722 Artist
+2723 Artist-craftsman, industrial designer, clothes-designer
+2724 Composer, musician, singer
+2725 Director, director of photography
+2726 Actor, puppet player
+2727 Dancer, choreographer
+2728 Artist in circus and in similar performing arts
+2729 Other creative and performing arts professional
+273 Religious professionals
+2730 Priest (pastor), church-related professional
+29 Other highly qualified executives
+291 Other highly qualified executives
+2910 Other highly qualified executive
+3 Technicians and associate professionals
+31 Technicians and other related technical professionals
+311 Industrial, construction industry technicians
+3111 Mining technician
+3112 Metallurgical and materials technician
+3113 Food industry technician
+3114 Wood and light industry technician
+3115 Chemical engineering technician
+3116 Mechanical engineering technician
+3117 Architecture and construction engineering technician
+312 Electrical engineering technicians
+3121 Electrical (power current) engineering technician
+3122 Electronics (light current) engineering technician
+313 Other technicians
+3131 Agricultural technician
+3132 Forestry and environmental protection technician
+3133 Surveying and GIS (Geographical Information System) technician
+3134 Environmental protection technician
+3135 Quality assurance technician
+3136 Draughtsperson
+3139 Other technician not elsewhere classified
+314 Computer engineering (information technology) and communications professionals
+3141 Information and communications technology operations technician
+3142 Information and communications technology user support technician
+3143 Computer network and systems technician
+3144 Web technician
+3145 Broadcasting and audio-visual technician
+3146 Telecommunications engineering technician
+315 Process controllers (controllers of equipment)
+3151 Power production plant operator
+3152 Incinerator and water treatment plant operator
+3153 Chemical processing plant controller
+3154 Petroleum and natural gas refining plant operator
+3155 Metal production process controller
+3159 Process control technician not elsewhere classified
+316 Plant maintenance professionals
+3161 Work and production organizer
+3162 Power management specialist
+3163 Working and operating safety specialist
+317 Captains of vessels, pilots of aircrafts, air traffic controllers
+3171 Commodore, captain, watchkeeper
+3172 Aircraft pilot, navigating engineer
+3173 Air traffic controller
+3174 Operator of air traffic control engineering equipment
+319 Other technical occupations
+3190 Other technical occupation
+32 Supervisors
+321 Supervisors in mining, industry and construction
+3211 Mining supervisor
+3212 Manufacturing supervisor
+3213 Construction supervisor
+322 Other supervisors
+3221 Office supervisor
+3222 Head-cook, chef
+33 Health professionals
+331 Medical care and obstetrics related professionals
+3311 Nursing associate professional
+3312 Midwifery associate professional
+332 Health care assistant
+3321 Medical assistant
+3322 Health care documentarist
+3323 Operator of medical imaging diagnostic and therapeutic equipment
+3324 Medical laboratory assistant
+3325 Dental assistant
+3326 Pharmacy and pharmaceutical supplies assistant
+3327 Assistant to alternative therapy practitioners
+333 Human health care related professionals
+3331 Environmental and occupational health assistant
+3332 Physiotherapist assistant, masseur/masseuse
+3333 Dental technician
+3334 Orthopaedic equipment manufacturer
+3335 Dispensing optician
+3339 Other human health care related professional
+334 Animal and plant hygiene related professionals
+3341 Veterinary assistant
+3342 Plant physiologist (plant protection) assistant
+34 Educational assistants
+341 Educational assistants
+3410 Educational assistant
+35 Social health care and labour market services professionals
+351 Social occupations
+3511 Social assistant
+3512 Official foster parent, full-time mother
+3513 Social services assistant, special social assistant
+3514 Signing interpreter
+3515 Youth assistant
+352 Labour market services assistants
+3520 Labour market services administrator
+36 Business related services administrators, administrators of authorities, agents
+361 Finance, economics administrators
+3611 Finance administrator (except banking administrator)
+3612 Banking administrator
+3613 Stock exchange and finance representative, broker
+3614 Accounting administrator
+3615 Statistical administrator
+3616 Valuer and loss assessor
+362 Trade and sales administrators, agents
+3621 Insurance agent, administrator
+3622 Sales administrator
+3623 Materials manager, purchasing agent
+3624 Agent (except insurance agent)
+363 Administrators of other business related services
+3631 Conference and event planner
+3632 Marketing and PR administrator
+3633 Real estate agent, real estate sales administrator
+3639 Administrator of other business type services, not elsewhere classified
+364 Administrative and legal assistants
+3641 Personal assistant
+3642 Legal assistant
+3649 Other administrative and legal assistant
+365 Government administrators
+3651 Customs and finance guard officer
+3652 Tax and duty office administrator
+3653 Social security and aid authority administrator
+3654 Government licensing officials
+3655 Police detective
+3656 Bailiff, debt collector
+3659 Other government administrator
+37 Arts, cultural, sports and religious professionals
+371 Arts and cultural professionals
+3711 Supernumerary, extra
+3712 Assistant director
+3713 Photographer
+3714 Scenery shifter, decorator
+3715 Complementary film producing and theatre occupation
+3716 Interior designer, decorator
+3717 Special technician in cultural institutions
+3719 Other arts and cultural professional
+372 Sports and leisure professionals
+3721 Athlete and sports player
+3722 Fitness and recreation instructors and programme leader
+373 Other religious professionals
+3730 Other religious professional
+39 Other administrators
+391 Other administrators
+3910 Other administrator
+4 OFFICE AND MANAGEMENT (CUSTOMER SERVICES) OCCUPATIONS
+41 Office clerks
+411 General office clerk
+4111 Secretary (general)
+4112 General office administrator
+4113 Typist, word processing operator
+4114 Data entry clerk, encoder
+412 Accounting occupations
+4121 Accountant (analytical)
+4122 Payroll clerk
+4123 Finance, statistics, insurance administrator
+4129 Other accounting worker
+413 Office special recording occupations
+4131 Stocks and materials clerk
+4132 Transport and forwarding clerk
+4133 Library, archives clerk
+4134 Human policy administrator
+4135 Postal services clerk (delivery, sorting)
+4136 Documents manager, filing-clerk
+419 Other office, management occupations
+4190 Other office, management occupation, not elsewhere classified
+42 Customer services occupations
+421 Cash administrators, banking cashiers
+4211 Bank teller
+4212 Gaming and betting organizer
+4213 Pawn office administrator and moneylender
+422 Customer service occupations
+4221 Tour operator, consultant
+4222 Receptionist
+4223 Hotel receptionist
+4224 Client (customer) information clerk
+4225 Customer service centre enquiry clerk
+4226 Survey and market research interviewer
+4227 Postal customer service clerk
+4229 Other customer services clerk
+5 COMMERCIAL AND SERVICES OCCUPATIONS
+51 Commercial and catering occupations
+511 Commercial occupations
+5111 Shopkeeper
+5112 Shop supervisor
+5113 Shop salesperson
+5114 Lender
+5115 Street and market salesperson
+5116 Street and market salesperson selling food and beverages
+5117 Shop cashier, ticket clerk
+512 Other commercial occupations
+5121 Service station attendant
+5122 Sales demonstrator, fashion model
+5123 Contact centre salesperson
+5129 Other commercial occupation, not elsewhere classified
+513 Catering industry occupations
+5131 Restaurant keeper
+5132 Waiter
+5133 Bartender
+5134 Cook
+5135 Confectioner
+52 Service workers
+521 Personal service workers
+5211 Hairdresser
+5212 Beautician
+5213 Manicurist, pedicurist
+5219 Other personal services workers
+522 Personal care workers
+5221 Babysitter, nurse
+5222 Assistant nurse, dresser
+5223 Home personal care worker
+5229 Other personal care worker
+523 Stewards, attendants
+5231 Conductor, ticket inspector
+5232 Travel attendant (airplane, ship)
+5233 Travel guide
+524 Building maintenance occupations
+5241 Cleaning supervisor
+5242 Housekeeper
+5243 Building caretaker
+525 Life and property protection occupations
+5251 Police officer
+5252 Fire-fighter
+5253 Prison guard
+5254 Property guard, bodyguard
+5255 Nature conservation warden
+5256 Public place inspector
+5259 Other life and property protection occupation
+529 Other services occupations
+5291 Driving instructor
+5292 Pet groomer and animal care worker
+5293 Funeral services worker
+5299 Other services occupation, not elsewhere classified
+6 AGRICULTURAL AND FORESTRY OCCUPATIONS
+61 Agricultural occupations
+611 Plant cultivation occupations
+6111 Field crop grower
+6112 Organic plants grower
+6113 Vegetable grower
+6114 Grapes and fruit grower
+6115 Ornamental plants, flowers and tree nursery gardener, seedling nursery gardener
+6116 Herbs grower
+6119 Other plants grower
+612 Animal producing occupations
+6121 Cattle, horse, pig, sheep producer
+6122 Poultry producer
+6123 Apiarist
+6124 Small animal producer
+613 Mixed crop and animal producers
+6130 Mixed crop and animal producer
+62 Forestry, game-farming and fisheries occupations
+621 Forestry workers
+6211 Forestry worker
+6212 Logger (wood-cutter)
+622 Game-farming occupations
+6220 Game-farmer
+623 Fish-farming occupations
+6230 Fishery worker
+7 INDUSTRY AND CONSTRUCTION INDUSTRY OCCUPATIONS
+71 Food processing workers
+711 Food producing, processing and preservation occupations
+7111 Butcher
+7112 Fruit and vegetables processing and preservation worker
+7113 Dairy processing worker, dairy products maker
+7114 Baker, confectionery maker
+7115 Wine producer, manufacturer of other alcoholic beverages, soda-water producer
+72 Light industry occupations
+721 Garment and leather industry workers
+7211 Pattern design maker
+7212 Tailor, sewing worker
+7213 Hatter, glove-maker
+7214 Furrier, fur-dyer
+7215 Tanner
+7216 Fancy leather goods maker, trunk-maker, leather products maker, repairs worker
+7217 Shoemakers and related worker
+722 Wood industry occupations
+7221 Woodworker
+7222 Wood turner
+7223 Cabinet-maker
+7224 Upholsterer
+7225 Cooper, wheelwright
+723 Printing trades workers
+7231 Pre-press worker
+7232 Printer, printing machine operator
+7233 Bookbinder
+73 Metal and electrical industry occupations
+731 Metallurgical occupations
+7310 Metal moulder
+732 Metal working occupations
+7321 Locksmith
+7322 Toolmaker
+7323 Machining worker
+7324 Metal polisher, wheel grinder and tool sharpener
+7325 Welder and flamecutter
+7326 Blacksmith, hammersmith and forging press worker
+7327 Spray painter and varnisher
+7328 Metal and other structure erector
+733 Maintenance and repair mechanics of machines and equipment
+7331 Motor vehicle mechanic and repairer
+7332 Aircraft engine mechanic and repairer
+7333 Agricultural and industrial machinery (engine) mechanic and repairer
+7334 Mechanical equipment mechanic and repairer
+7335 Bicycle mechanic and repairer
+734 Technicians and mechanics of electrical equipment
+7341 Technician and mechanic of electrical equipment and devices
+7342 Information and communications technology installer and repairer
+7343 Electrical line installer and repairer
+74 Handicraft workers
+741 Handicraft workers
+7411 Sign writer
+7412 Jeweller, goldsmith, precious-metal worker
+7413 Potter
+7414 Glass-maker
+7415 Musical instrument maker
+7416 Fur and feather processing worker
+7417 Reed and willow processing worker, broom and brush maker
+7418 Textile maker, embroiderer, lace-maker
+7419 Other handicraft worker
+742 Precision instrument mechanics
+7420 Precision instrument mechanic
+75 Building industry occupations
+751 Master builders' occupations
+7511 Bricklayer
+7512 Plasterer
+7513 Carpenter
+7514 Building joiner
+7515 Building frame worker
+7519 Other master builders’ occupation
+752 Construction, assembly occupations
+7521 Plumber and pipe fitter (water, gas, heating)
+7522 Fitter of ventilation, cooling and air-conditioning equipment
+7523 Elevator mechanic
+7524 Fitter of building electric network, electric fitter
+7529 Other building, fitting occupation
+753 Specialized construction industry occupations
+7531 Insulation worker
+7532 Roofer
+7533 Building, construction plumber
+7534 Floor layer and tile setter
+7535 Painter and decorator
+7536 Stonemason, artificial stone maker
+7537 Stove-maker and fireplace-builder
+7538 Glazier
+7539 Other specialized construction industry occupation
+79 Other industry and construction industry occupations
+791 Other industry and construction industry occupations
+7911 Industrial diver
+7912 Industrial alpinist
+7913 Blaster
+7914 Fumigator, weed controller
+7915 Chimney sweeper, building structure cleaner
+7919 Other industrial and construction industrial occupation not elsewhere classified
+8 MACHINE OPERATORS, ASSEMBLY WORKERS, DRIVERS OF VEHICLES
+81 Manufacturing machine operators
+811 Food, beverage and tobacco products machine operators
+8111 Food, beverage products machine operator
+8112 Tobacco products machine operator
+812 LIght industry machine operators and production-line workers
+8121 Textile industry machine operator and production-line worker
+8122 Clothing industry machine operator and production-line worker
+8123 Leather tanning and processing machine operator and production-line worker
+8124 Shoe products machine operator and production-line worker
+8125 Wood processing machine operator and production-line worker
+8126 Paper and cellulose products machine operator and production-line worker
+813 Basic chemicals and chemical products manufacturers machine operators
+8131 Oil and natural gas processing machine operator
+8132 Basic chemicals and chemical products machine operator
+8133 Pharmaceutical products machine operator
+8134 Fertilizers and plant-protection products machine operator
+8135 Plastic products machine operator
+8136 Rubber products machine operator
+8137 Photographs and films laboratory assistant
+814 Base materials products machine operators
+8141 Ceramics industry products machine operator
+8142 Glass and glass-ware products machine operator
+8143 Cement, stone and other minerals processing machine operator
+8144 Paper industry base materials products machine operator
+815 Metal processing and finishing plant operators
+8151 Metal processing plant operator
+8152 Metal finishing and coating machine operator
+819 Other manufacturing machine operators
+8190 Other manufacturing machine operator not elsewhere classified
+82 Assemblers
+821 Assemblers
+8211 Mechanical machinery assembler
+8212 Electrical and electronic equipment assembler
+8219 Assembler of other products
+83 Stationary machine operators
+831 Mining plant operators
+8311 Mineral and stone extraction machine operator (coal, stone)
+8312 Well driller, deep drilling rig machine operator (oil, natural gas, water)
+832 Other stationary machine operators
+8321 Power engineering machine operator
+8322 Water treatment machine operator
+8323 Boiler plant operator
+8324 Radioactive decontamination machine, equipment operator
+8325 Packing, bottling, and labelling machine operator
+8326 Cinema operator, projectionist
+8327 Laundry machine operator
+8329 Stationary machine operator not elsewhere classified
+84 Drivers and mobile machinery operators
+841 Drivers of vehicles and related occupations
+8411 Locomotive engine driver
+8412 Occupations related to driving railway vehicles
+8413 Tram driver
+8414 Underground driver
+8415 Trolley bus driver
+8416 Car driver
+8417 Heavy truck and lorry driver
+8418 Bus driver
+8419 Other drivers of vehicles and related occupation
+842 Mobile machinery operators
+8421 Agricultural, forestry, plant protection machine operator
+8422 Earthmoving and related light and heavy machine operator
+8423 Public hygiene, local sanitation machine operator
+8424 Crane, hoist and related plant operator
+8425 Lifting truck operator
+843 Shipping occupations
+8430 Ship’s crew, helmsman, sailor
+9 (ELEMENTARY) OCCUPATIONS NOT REQUIRING QUALIFICATIONS
+91 Cleaners and related simple occupations
+911 Cleaners and helpers
+9111 Domestic cleaner and helper
+9112 Cleaner and helper in offices, hotels and other establishments
+9113 Hand launderer, presser
+9114 Vehicle cleaner
+9115 Window cleaner
+9119 Other cleaner and helper
+92 Simple service, transport and similar occupations
+921 Garbage collectors and similar occupations
+9211 Garbage collector, street sweeper
+9212 Refuse sorter
+922 Transport and storage labourers
+9221 Hand and pedal vehicle driver
+9222 Driver of animal-drawn vehicles
+9223 Freight handler
+9224 Counter and shelf filler
+9225 Hand packer
+923 Other simple service and transport occupations
+9231 Door-keeper, gate-keeper, simple guard
+9232 Meter reader and similar simple occupations
+9233 Office attendant, deliverer
+9234 Luggage porter, package deliverer
+9235 Fast food restaurant assistant
+9236 Kitchen helper
+9237 Domestic helper
+9238 Car park guard
+9239 Other simple service and transport occupation not elsewhere classified
+93 Simple industry, construction industry, agricultural occupations
+931 Simple industry occupations
+9310 Simple industry occupation
+932 Simple construction industry occupations
+9321 Navvy
+9329 Other simple construction industry occupation
+933 Simple agricultural, forestry, hunting, fishery labourers
+9331 Simple agricultural labourer
+9332 Simple forestry, hunting, fishery labourer
+0 ARMED FORCES OCCUPATIONS
+01 Armed forces occupations requiring tertiary qualification
+011 Armed forces occupations requiring tertiary qualification
+0110 Armed forces occupation requiring tertiary qualification
+02 Armed forces occupations requiring secondary qualification
+021 Armed forces occupations requiring secondary qualification
+0210 Armed forces occupation requiring secondary qualification
+03 Armed forces occupations not requiring secondary qualification
+031 Armed forces occupations not requiring secondary qualification
+0310 Armed forces occupation not requiring secondary qualification
