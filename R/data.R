@@ -1,6 +1,11 @@
 #' @importFrom tibble tibble
 NULL
 
+#' FEOR-93
+#'
+#' FEOR-93
+"feor93_2015_05_19"
+
 #' FEOR-08
 #'
 #' FEOR-08
