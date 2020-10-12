@@ -4,7 +4,9 @@
 \name{nace_r2_2018_06_06}
 \alias{nace_r2_2018_06_06}
 \title{NACE}
-\format{An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 615 rows and 10 columns.}
+\format{
+An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 615 rows and 10 columns.
+}
 \usage{
 nace_r2_2018_06_06
 }

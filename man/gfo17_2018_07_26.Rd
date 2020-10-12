@@ -4,7 +4,9 @@
 \name{gfo17_2018_07_26}
 \alias{gfo17_2018_07_26}
 \title{GFO 17}
-\format{An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 117 rows and 7 columns.}
+\format{
+An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 117 rows and 7 columns.
+}
 \usage{
 gfo17_2018_07_26
 }

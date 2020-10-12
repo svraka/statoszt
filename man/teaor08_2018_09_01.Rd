@@ -4,7 +4,9 @@
 \name{teaor08_2018_09_01}
 \alias{teaor08_2018_09_01}
 \title{TEAOR08}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 615 rows and 10 columns.}
+\format{
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 615 rows and 10 columns.
+}
 \usage{
 teaor08_2018_09_01
 }
