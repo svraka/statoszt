@@ -17,7 +17,7 @@ Suggests:
     readxl,
     rvest,
     tidyverse
-License: What license it uses
+License: CC0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
