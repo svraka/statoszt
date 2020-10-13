@@ -18,7 +18,7 @@ csoportok <- feor08_2019_02_14 %>%
   html_nodes(".folder") %>%
   html_text %>%
   enframe(name = NULL) %>%
-  separate(value, into = c("kod_3jegy", "nev_3jegy"), extra = "merge") %>%
+  separate(value, into = c("kod_3jegy", "nev_3jegy"), sep = " ", extra = "merge") %>%
   mutate(nev_3jegy = str_to_sentence(nev_3jegy)) %>%
   mutate(
     kod_2jegy = if_else(
@@ -52,7 +52,7 @@ foglalkozasok <- feor08_2019_02_14 %>%
   html_nodes(".occ") %>%
   html_text %>%
   enframe(name = NULL) %>%
-  separate(value, into = c("kod_4jegy", "nev_4jegy"), extra = "merge") %>%
+  separate(value, into = c("kod_4jegy", "nev_4jegy"), sep = " ", extra = "merge") %>%
   mutate(kod_3jegy = str_sub(kod_4jegy, 1, 3)) %>%
   filter(str_detect(kod_4jegy, re_kod_4jegy))
 
