@@ -17,7 +17,7 @@ feor93_2015_05_19 <- c("feor93_hu.html", "feor93_en.html") %>%
   here::here("data-raw", .) %>%
   set_names(~ str_replace(.x, ".+feor93_(.+?)\\..+", "\\1")) %>%
   map(
-    ~ read_html(.x) %>%
+    ~ read_html(.x, encoding = "iso-8859-2") %>%
       html_nodes(".elem") %>%
       html_text() %>%
       enframe(name = NULL) %>%
@@ -43,6 +43,7 @@ feor93_2015_05_19 <- c("feor93_hu.html", "feor93_en.html") %>%
       arrange(kod_4jegy) %>%
       mutate(kod_4jegy = str_sub(kod_4jegy, 2)) %>%
       mutate(
+        nev_4jegy = str_replace_all(nev_4jegy, "\\s+", " "),
         nev_4jegy = str_to_sentence(nev_4jegy),
         kod_3jegy = if_else(
           str_detect(kod_4jegy, re_kod_3jegy),
