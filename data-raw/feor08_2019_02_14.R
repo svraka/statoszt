@@ -19,8 +19,8 @@ csoportok <- feor08_2019_02_14 %>%
   html_text %>%
   enframe(name = NULL) %>%
   separate(value, into = c("kod_3jegy", "nev_3jegy"), sep = " ", extra = "merge") %>%
-  mutate(nev_3jegy = str_to_sentence(nev_3jegy)) %>%
   mutate(
+    nev_3jegy = str_to_sentence(nev_3jegy),
     kod_2jegy = if_else(
       str_detect(kod_3jegy, re_kod_2jegy),
       str_sub(kod_3jegy, 1, 2),
@@ -53,7 +53,12 @@ foglalkozasok <- feor08_2019_02_14 %>%
   html_text %>%
   enframe(name = NULL) %>%
   separate(value, into = c("kod_4jegy", "nev_4jegy"), sep = " ", extra = "merge") %>%
-  mutate(kod_3jegy = str_sub(kod_4jegy, 1, 3)) %>%
+  mutate(
+    # Fix a few typos
+    nev_4jegy = str_replace(nev_4jegy, "\\b[pP][rR]\\b", "PR"),
+    # Create a key
+    kod_3jegy = str_sub(kod_4jegy, 1, 3),
+  ) %>%
   filter(str_detect(kod_4jegy, re_kod_4jegy))
 
 
@@ -73,6 +78,10 @@ feor08_eng_2019_02_14 <- read_lines("data-raw/feor_08_struktura_eng_2018-07-27.t
   str_split("\\ ", n = 2) %>%
   map_dfr(~ tibble(kod_4jegy = .x[[1]], nev_4jegy_eng = .x[[2]])) %>%
   mutate(
+    # Fix a few typos
+    nev_4jegy_eng = str_replace(nev_4jegy_eng, "([Mm])anegers", "\\1anagers"),
+    nev_4jegy_eng = str_replace(nev_4jegy_eng, "LIght", "Light"),
+    # And create 1, 2, and 3 digit codes and names
     kod_3jegy = if_else(
       str_detect(kod_4jegy, re_kod_3jegy),
       str_sub(kod_4jegy, 1, 3),
