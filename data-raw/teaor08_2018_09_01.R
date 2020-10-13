@@ -180,7 +180,8 @@ teaor_a38 <- teaor08_2018_09_01 %>%
   group_by(kod_a38) %>%
   summarise(
     osztaly_kezd = min(kod_2jegy),
-    osztaly_zaro = max(kod_2jegy)
+    osztaly_zaro = max(kod_2jegy),
+    .groups = "drop"
   ) %>%
   filter(str_length(kod_a38) == 2)
 
