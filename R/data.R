@@ -11,6 +11,11 @@ NULL
 #' FEOR-08
 "feor08_2019_02_14"
 
+#' FEOR-93 to FEOR-08 crosswalk
+#'
+#' FEOR-93 to FEOR-08 crosswalk
+"feor93_08_crosswalk"
+
 #' GFO 17
 #'
 #' GFO 17
