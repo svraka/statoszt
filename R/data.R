@@ -21,11 +21,6 @@ NULL
 #' GFO 17
 "gfo17_2018_07_26"
 
-#' NACE
-#'
-#' NACE
-"nace_r2_2018_06_06"
-
 #' TEAOR08
 #'
 #' TEAOR08
